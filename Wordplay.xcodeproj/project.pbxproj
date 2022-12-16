@@ -14,6 +14,7 @@
 		3416B91528F85C1000707DBE /* WordplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416B91428F85C1000707DBE /* WordplayTests.swift */; };
 		3416B91F28F85C1000707DBE /* WordplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416B91E28F85C1000707DBE /* WordplayUITests.swift */; };
 		3416B92128F85C1000707DBE /* WordplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416B92028F85C1000707DBE /* WordplayUITestsLaunchTests.swift */; };
+		3416B92E28F85E2D00707DBE /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416B92D28F85E2D00707DBE /* StoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3416B91A28F85C1000707DBE /* WordplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416B91E28F85C1000707DBE /* WordplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordplayUITests.swift; sourceTree = "<group>"; };
 		3416B92028F85C1000707DBE /* WordplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3416B92D28F85E2D00707DBE /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3416B90328F85C0E00707DBE /* WordplayApp.swift */,
 				3416B90528F85C0E00707DBE /* ContentView.swift */,
+				3416B92D28F85E2D00707DBE /* StoryView.swift */,
 				3416B90728F85C1000707DBE /* Assets.xcassets */,
 				3416B90928F85C1000707DBE /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3416B92E28F85E2D00707DBE /* StoryView.swift in Sources */,
 				3416B90628F85C0E00707DBE /* ContentView.swift in Sources */,
 				3416B90428F85C0E00707DBE /* WordplayApp.swift in Sources */,
 			);
